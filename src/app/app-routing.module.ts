@@ -22,6 +22,7 @@ const routes: Routes = [
   {
     path:'projets',component:ProjetsComponent
   },
+
   {
     path:'**',component:UnfoundComponent
   } // exception route
